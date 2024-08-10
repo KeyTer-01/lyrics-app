@@ -5,14 +5,16 @@ import Home from "./pages/Home";
 // import Lyrics from "./pages/Lyrics";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import AllLyrics from "./pages/AllLyrics";
 
 const AllRoutes = () => (
   <Router>
     <Routes>
-      <Route path="/" exact element={<Home />} />
+      <Route path="/" exact element={<Login />} />
       {/* <Route path="/lyrics" component={Lyrics} /> */}
-      <Route path="/login" element={<Login />} />
+      {/* <Route path="/login" element={<Login />} /> */}
       <Route path="/register" element={<Register />} />
+      <Route path="/all-lyrics" element={<AllLyrics />} />
     </Routes>
   </Router>
 );
