@@ -10,7 +10,7 @@ const AllLyrics = () => {
         // justifyContent={"center"}
         alignItems={"center"}
         width={"100vw"}
-        padding={4}
+        padding={6}
       >
         <Flex width={"90%"} justifyContent={"space-between"}>
           <Text> All Lyrics </Text>
