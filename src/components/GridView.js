@@ -13,102 +13,25 @@ import {
 import React from "react";
 import dummyImage from "../assets/images/dummyImage.JPG";
 import penIcon from "../assets/icons/penIcon.svg";
+import { songLyrics } from "../components/constants/songLyrics";
 
 export const GridView = () => {
-  const cardData = [
-    {
-      title: "God is Light",
-      description:
-        "This is the message that we have heard of Him and we declare unto you",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Hail The Most High",
-      description: "You are the God in all the earth",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Heavens React",
-      description: "Teach us to live the anointed life ",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Hail The Most High",
-      description: "You are the God in all the earth",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "God is Light",
-      description:
-        "This is the message that we have heard of Him and we declare unto you",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Heavens React",
-      description: "Teach us to live the anointed life ",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "God is Light",
-      description:
-        "This is the message that we have heard of Him and we declare unto you",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Hail The Most High",
-      description: "You are the God in all the earth",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Heavens React",
-      description: "Teach us to live the anointed life ",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Hail The Most High",
-      description: "You are the God in all the earth",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "God is Light",
-      description:
-        "This is the message that we have heard of Him and we declare unto you",
-      lyrics: "View",
-      listen: "listen",
-    },
-    {
-      title: "Heavens React",
-      description: "Teach us to live the anointed life ",
-      lyrics: "View",
-      listen: "listen",
-    },
-  ];
   return (
     <>
       <SimpleGrid
         width={"90%"}
-        columns={[1, 2, 3, 4]}
+        columns={[1, 2, 3, 4, 5]}
         spacing={6}
         justifyContent={"center"}
       >
-        {cardData.map((card, index) => (
+        {songLyrics.map((card, index) => (
           <Card key={index} border={0} boxShadow={0}>
-            <Image src={dummyImage} borderRadius="lg" p={4} />
+            <Image src={card?.thumbnail} borderRadius="lg" p={4} />
             <CardHeader>
-              <Heading size="md">{card.title}</Heading>
+              <Heading size="md">{card?.title}</Heading>
             </CardHeader>
             <CardBody pt={0}>
-              <Text>{card.description}</Text>
+              <Text>{card?.description}</Text>
             </CardBody>
             <CardFooter pt={0}>
               <Button
@@ -120,7 +43,7 @@ export const GridView = () => {
                 fontWeight={"600"}
                 // rightIcon={}
               >
-                {card.lyrics}
+                {card?.lyrics}
               </Button>
               <Button
                 variant={"outline"}
@@ -131,7 +54,7 @@ export const GridView = () => {
                 fontWeight={"600"}
                 ml={2}
               >
-                {card.listen}
+                {card?.listen}
               </Button>
             </CardFooter>
           </Card>
