@@ -10,11 +10,11 @@ import AllLyrics from "./pages/AllLyrics";
 const AllRoutes = () => (
   <Router>
     <Routes>
-      <Route path="/" exact element={<Login />} />
+      {/* <Route path="/" exact element={<Login />} /> */}
       {/* <Route path="/lyrics" component={Lyrics} /> */}
       {/* <Route path="/login" element={<Login />} /> */}
       <Route path="/register" element={<Register />} />
-      <Route path="/all-lyrics" element={<AllLyrics />} />
+      <Route path="/" element={<AllLyrics />} />
     </Routes>
   </Router>
 );
