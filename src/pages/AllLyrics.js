@@ -6,11 +6,16 @@ import {
   InputRightElement,
   Text,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import { GridView } from "../components/GridView";
 import { AddIcon, Search2Icon, SearchIcon } from "@chakra-ui/icons";
 
 const AllLyrics = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
   return (
     <>
       <Flex
@@ -26,7 +31,13 @@ const AllLyrics = () => {
           alignItems={"center"}
         >
           <InputGroup>
-            <Input placeholder="Search Lyrics" size="md" type="search" />
+            <Input
+              placeholder="Search Lyrics"
+              size="md"
+              type="search"
+              value={searchQuery}
+              onChange={handleSearchChange}
+            />
             <InputRightElement>
               <IconButton
                 backgroundColor={"transparent"}
@@ -37,7 +48,7 @@ const AllLyrics = () => {
           </InputGroup>
         </Flex>
         <br />
-        <GridView />
+        <GridView searchQuery={searchQuery} />
       </Flex>
     </>
   );

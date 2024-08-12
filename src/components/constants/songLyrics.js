@@ -15,7 +15,7 @@ import holySpiritSingImage from "../../assets/images/holy-spirit-sing-image.png"
 import iChooseLifeImage from "../../assets/images/i-choose-life-image.png";
 import jesusTheHighPriestImage from "../../assets/images/jesus-the-high-priest-image.png";
 import lifeIsYourBusinessImage from "../../assets/images/life-is-your-business-image.png";
-import lionKingImage from "../../assets/images/bring-me-under-image.png";
+import lionKingImage from "../../assets/images/lion-king-image.png";
 import measureOutToMeImage from "../../assets/images/measure-out-to-me-image.png";
 import moLikeEmiMimoImage from "../../assets/images/mo-like-emi-mimo-image.png";
 import noLightSoBrightImage from "../../assets/images/no-light-so-bright-image.png";
@@ -23,12 +23,15 @@ import publishSalvationImage from "../../assets/images/publish-salvation-image.p
 import radianceOfHisGloryImage from "../../assets/images/radiance-of-his-glory.png";
 import ruachAdonaiImage from "../../assets/images/ruach-adonai-image.png";
 import sendDownImage from "../../assets/images/send-down-image.png";
-import speakToUsImage from "../../assets/images/speak-to-us-image.png";
 
 import defaultImage from "../../assets/images/default-cleft-image.png";
 
 import { AboveEveryName } from "../songs/AboveEveryName";
 import { AbundantEntrances } from "../songs/AbundantEntrances";
+import { Agbanilagbatan } from "../songs/Agbanilagbatan";
+import { AwayWithYou } from "../songs/AwayWithYou";
+import { BalmOfGilead } from "../songs/BalmOfGilead";
+import { BannerOfLove } from "../songs/BannerOfLove";
 
 export const songLyrics = [
   {
@@ -50,7 +53,7 @@ export const songLyrics = [
   {
     id: 98,
     title: "Agbanilagbatan",
-    description: "Teach us to live the anointed life ",
+    description: <Agbanilagbatan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: agbanilagbatanImage,
@@ -58,7 +61,7 @@ export const songLyrics = [
   {
     id: 27,
     title: "Away With You",
-    description: "Teach us to live the anointed life ",
+    description: <AwayWithYou />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -66,7 +69,7 @@ export const songLyrics = [
   {
     id: 39,
     title: "Balm Of Gilead",
-    description: "You are the God in all the earth",
+    description: <BalmOfGilead />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -74,7 +77,7 @@ export const songLyrics = [
   {
     id: 86,
     title: "Banner of Love",
-    description: "You are the God in all the earth",
+    description: <BannerOfLove />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -183,7 +186,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: cityOfStoneImage,
   },
   {
     id: 108,
@@ -550,7 +553,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: lionKingImage,
   },
   {
     id: 7,
@@ -684,7 +687,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: noLightSoBrightImage,
   },
 
   {
@@ -703,7 +706,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: iChooseLifeImage,
   },
   {
     id: 88,
@@ -721,7 +724,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: moLikeEmiMimoImage,
   },
   {
     id: 11,
@@ -748,7 +751,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: lifeIsYourBusinessImage,
   },
 
   {
@@ -1066,7 +1069,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: radianceOfHisGloryImage,
   },
   {
     id: 53,
@@ -1120,7 +1123,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: ruachAdonaiImage,
   },
   {
     id: 42,
@@ -1201,7 +1204,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: publishSalvationImage,
   },
   {
     id: 14,
@@ -1516,7 +1519,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: measureOutToMeImage,
   },
   {
     id: 72,
@@ -1588,7 +1591,7 @@ export const songLyrics = [
       "This is the message that we have heard of Him and we declare unto you",
     lyrics: "View",
     listen: "listen",
-    thumbnail: defaultImage,
+    thumbnail: jesusTheHighPriestImage,
   },
   {
     id: 57,
@@ -1643,5 +1646,23 @@ export const songLyrics = [
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
+  },
+  {
+    id: 900,
+    title: "Glory To Glory",
+    description:
+      "This is the message that we have heard of Him and we declare unto you",
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: gloryToGloryImage,
+  },
+  {
+    id: 911,
+    title: "Send Down",
+    description:
+      "This is the message that we have heard of Him and we declare unto you",
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: sendDownImage,
   },
 ];
