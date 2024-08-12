@@ -50,45 +50,46 @@ export const GridView = ({ searchQuery }) => {
         spacing={10}
         justifyContent={"center"}
       >
-        {filteredLyrics.map((card, index) => (
-          <Card
-            key={index}
-            border={0}
-            boxShadow={0}
-            display={"flex"}
-            flexDirection={"column"}
-          >
-            <Image src={card?.thumbnail} borderRadius="lg" p={0} />
-            <CardHeader pl={0} pr={0}>
-              <Heading size="md">{card?.title}</Heading>
-            </CardHeader>
-            <CardHeader pt={0} pl={0} pr={0}>
-              <Button
-                variant={"outline"}
-                height={"31px"}
-                width={"67px"}
-                borderRadius={"42px"}
-                fontSize={"12px"}
-                fontWeight={"600"}
-                onClick={() => toggleDescription(index)}
-              >
-                {visibleDescription === index ? "Hide" : "View"}
-              </Button>
-            </CardHeader>
+        {filteredLyrics.length > 0 ? (
+          filteredLyrics.map((card, index) => (
+            <Card
+              key={index}
+              border={0}
+              boxShadow={0}
+              display={"flex"}
+              flexDirection={"column"}
+            >
+              <Image src={card?.thumbnail} borderRadius="lg" p={0} />
+              <CardHeader pl={0} pr={0}>
+                <Heading size="md">{card?.title}</Heading>
+              </CardHeader>
+              <CardHeader pt={0} pl={0} pr={0}>
+                <Button
+                  variant={"outline"}
+                  height={"31px"}
+                  width={"67px"}
+                  borderRadius={"42px"}
+                  fontSize={"12px"}
+                  fontWeight={"600"}
+                  onClick={() => toggleDescription(index)}
+                >
+                  {visibleDescription === index ? "Hide" : "View"}
+                </Button>
+              </CardHeader>
 
-            <CardBody p={0}>
-              <div
-                css={[
-                  descriptionContainerStyle,
-                  visibleDescription === index
-                    ? descriptionVisibleStyle
-                    : descriptionHiddenStyle,
-                ]}
-              >
-                <Text fontSize={"14px"}>{card?.description}</Text>
-              </div>
-            </CardBody>
-            {/* <CardFooter
+              <CardBody p={0}>
+                <div
+                  css={[
+                    descriptionContainerStyle,
+                    visibleDescription === index
+                      ? descriptionVisibleStyle
+                      : descriptionHiddenStyle,
+                  ]}
+                >
+                  <Text fontSize={"14px"}>{card?.description}</Text>
+                </div>
+              </CardBody>
+              {/* <CardFooter
               pt={0}
               pl={0}
               pr={0}
@@ -118,8 +119,11 @@ export const GridView = ({ searchQuery }) => {
                 {card?.listen}
               </Button>
             </CardFooter> */}
-          </Card>
-        ))}
+            </Card>
+          ))
+        ) : (
+          <Text fontSize={"xl"}>Song Not Found!</Text>
+        )}
       </SimpleGrid>
     </>
   );
