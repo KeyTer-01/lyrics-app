@@ -4,9 +4,7 @@ import {
   Button,
   Card,
   CardBody,
-  CardFooter,
   CardHeader,
-  Flex,
   Heading,
   Image,
   SimpleGrid,
@@ -15,7 +13,7 @@ import {
 import React, { useState } from "react";
 import { songLyrics } from "../components/constants/songLyrics";
 
-export const GridView = () => {
+export const GridView = ({ searchQuery }) => {
   const [visibleDescription, setVisibleDescription] = useState(null);
 
   const toggleDescription = (index) => {
@@ -36,6 +34,13 @@ export const GridView = () => {
   const descriptionHiddenStyle = css`
     padding: 0;
   `;
+  const filteredLyrics = songLyrics.filter((song) =>
+    // song.title &&
+    // typeof song.title === "string" &&
+    song.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  console.log(searchQuery);
 
   return (
     <>
@@ -45,7 +50,7 @@ export const GridView = () => {
         spacing={10}
         justifyContent={"center"}
       >
-        {songLyrics.map((card, index) => (
+        {filteredLyrics.map((card, index) => (
           <Card
             key={index}
             border={0}
