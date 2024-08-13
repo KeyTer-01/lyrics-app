@@ -32,6 +32,46 @@ import { Agbanilagbatan } from "../songs/Agbanilagbatan";
 import { AwayWithYou } from "../songs/AwayWithYou";
 import { BalmOfGilead } from "../songs/BalmOfGilead";
 import { BannerOfLove } from "../songs/BannerOfLove";
+import { BeMyMan } from "../songs/BeMyMan";
+import { BeXtra } from "../songs/BeXtra";
+import { BearingGifts } from "../songs/BearingGifts";
+import { BeholdTheLamb } from "../songs/BeholdTheLamb";
+import { BidMeCome } from "../songs/BidMeCome";
+import { BloodGoblet } from "../songs/BloodGoblet";
+import { BringMeUnder } from "../songs/BringMeUnder";
+import { ByTheTime } from "../songs/ByTheTime";
+import { ByTheWordOfGod } from "../songs/ByTheWordOfGod";
+import { CarryMe } from "../songs/CarryMe";
+import { ChambersofMajesty } from "../songs/ChambersofMajesty";
+import { ChristBeMagnified } from "../songs/ChristBeMagnified";
+import { CityOfStone } from "../songs/CityOfStone";
+import { ComeJesusCome } from "../songs/ComeJesusCome";
+import { ComeManifest } from "../songs/ComeManifest";
+import { ConsecrateMe } from "../songs/ConsecrateMe";
+import { ConsumingFire } from "../songs/ConsumingFire";
+import { CrucifiedWithChrist } from "../songs/CrucifiedWithChrist";
+import { DavidsArising } from "../songs/DavidsArising";
+import { DayOfVengeance } from "../songs/DayOfVengeance";
+import { DigNewWells } from "../songs/DigNewWells";
+import { DrawingMeCloser } from "../songs/DrawingMeCloser";
+import { EarthlyItinerary } from "../songs/EarthlyItinerary";
+import { Elohim } from "../songs/Elohim";
+import { ElohimInheritance } from "../songs/ElohimInheritance";
+import { ElohimsChampion } from "../songs/ElohimsChampion";
+import { ElohimShalom } from "../songs/ElohimShalom";
+import { ElohimTender } from "../songs/ElohimTender";
+import { ElyonDonComeDown } from "../songs/ElyonDonComeDown";
+import { EmiAjobina } from "../songs/EmiAjobina";
+import { EsteemYourWord } from "../songs/EsteemYourWord";
+import { EverlastingGod } from "../songs/EverlastingGod";
+import { EverlastingToEverlasting } from "../songs/EverlastingToEverlasting";
+import { ExcellentGlory } from "../songs/ExcellentGlory";
+import { ExpireDarkness } from "../songs/ExpireDarkness";
+import { EyesOnlyForYou } from "../songs/EyesOnlyForYou";
+import { FatherAndTheSon } from "../songs/FatherAndTheSon";
+import { FatherMe } from "../songs/FatherMe";
+import { FillingMyCup } from "../songs/FillingMyCup";
+import { ForMySoul } from "../songs/ForMySoul";
 
 export const songLyrics = [
   {
@@ -85,7 +125,7 @@ export const songLyrics = [
   {
     id: 168,
     title: "Be My Man",
-    description: "You are the God in all the earth",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -93,7 +133,7 @@ export const songLyrics = [
   {
     id: 167,
     title: "Be Xtra",
-    description: "You are the God in all the earth",
+    description: <BeXtra />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -101,7 +141,7 @@ export const songLyrics = [
   {
     id: 161,
     title: "Bearing Gifts",
-    description: "You are the God in all the earth",
+    description: <BearingGifts />,
     lyrics: "View",
     listen: "listen",
     thumbnail: bearingGiftsImage,
@@ -109,7 +149,7 @@ export const songLyrics = [
   {
     id: 99,
     title: "Behold The Lamb",
-    description: "You are the God in all the earth",
+    description: <BeholdTheLamb />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -117,7 +157,7 @@ export const songLyrics = [
   {
     id: 112,
     title: "Bid Me Come",
-    description: "You are the God in all the earth",
+    description: <BidMeCome />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -125,7 +165,7 @@ export const songLyrics = [
   {
     id: 74,
     title: "Blood Goblet",
-    description: "You are the God in all the earth",
+    description: <BloodGoblet />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -133,8 +173,7 @@ export const songLyrics = [
   {
     id: 5,
     title: "Bring Me Under",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BringMeUnder />,
     lyrics: "View",
     listen: "listen",
     thumbnail: bringMeUnderImage,
@@ -142,7 +181,7 @@ export const songLyrics = [
   {
     id: 22,
     title: "By The Time",
-    description: "You are the God in all the earth",
+    description: <ByTheTime />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -150,7 +189,7 @@ export const songLyrics = [
   {
     id: 35,
     title: "By The Word Of God",
-    description: "You are the God in all the earth",
+    description: <ByTheWordOfGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -158,7 +197,7 @@ export const songLyrics = [
   {
     id: 150,
     title: "Carry Me",
-    description: "You are the God in all the earth",
+    description: <CarryMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -166,7 +205,7 @@ export const songLyrics = [
   {
     id: 93,
     title: "Chambers of Majesty On High",
-    description: "Teach us to live the anointed life ",
+    description: <ChambersofMajesty />,
     lyrics: "View",
     listen: "listen",
     thumbnail: chambersOfMajestyImage,
@@ -174,7 +213,7 @@ export const songLyrics = [
   {
     id: 149,
     title: "Christ Be Magnified",
-    description: "Teach us to live the anointed life ",
+    description: <ChristBeMagnified />,
     lyrics: "View",
     listen: "listen",
     thumbnail: chambersOfMajestyImage,
@@ -182,8 +221,7 @@ export const songLyrics = [
   {
     id: 134,
     title: "City of Stone",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <CityOfStone />,
     lyrics: "View",
     listen: "listen",
     thumbnail: cityOfStoneImage,
@@ -191,8 +229,7 @@ export const songLyrics = [
   {
     id: 108,
     title: "Come Manifest Yourself To Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <ComeManifest />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -200,8 +237,7 @@ export const songLyrics = [
   {
     id: 119,
     title: "Come, Jesus Come",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <ComeJesusCome />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -209,8 +245,7 @@ export const songLyrics = [
   {
     id: 97,
     title: "Consecrate Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <ConsecrateMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -218,8 +253,7 @@ export const songLyrics = [
   {
     id: 38,
     title: "Consuming Fire",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <ConsumingFire />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -227,8 +261,7 @@ export const songLyrics = [
   {
     id: 104,
     title: "Crucified With Christ",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <CrucifiedWithChrist />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -236,8 +269,7 @@ export const songLyrics = [
   {
     id: 145,
     title: "Day Of Vengeance",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <DayOfVengeance />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -245,8 +277,7 @@ export const songLyrics = [
   {
     id: 71,
     title: "Davids Arising",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <DavidsArising />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -254,8 +285,7 @@ export const songLyrics = [
   {
     id: 124,
     title: "Dig New Wells",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <DigNewWells />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -263,8 +293,7 @@ export const songLyrics = [
   {
     id: 95,
     title: "Drawing Me Closer",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <DrawingMeCloser />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -272,17 +301,15 @@ export const songLyrics = [
   {
     id: 78,
     title: "Earthly Itinerary",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <EarthlyItinerary />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
   },
   {
     id: 3,
-    title: "Eliyon Don Come Down",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    title: "Elyon Don Come Down",
+    description: <ElyonDonComeDown />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -290,8 +317,7 @@ export const songLyrics = [
   {
     id: 2,
     title: "Elohim",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <Elohim />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -299,8 +325,7 @@ export const songLyrics = [
   {
     id: 50,
     title: "Elohim Inheritance",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <ElohimInheritance />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -308,8 +333,7 @@ export const songLyrics = [
   {
     id: 146,
     title: "Elohim Shalom",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <ElohimShalom />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -317,7 +341,7 @@ export const songLyrics = [
   {
     id: 90,
     title: "Elohim Tender",
-    description: "Teach us to live the anointed life ",
+    description: <ElohimTender />,
     lyrics: "View",
     listen: "listen",
     thumbnail: elohimTenderImage,
@@ -325,8 +349,7 @@ export const songLyrics = [
   {
     id: 80,
     title: "Elohim's Champion",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <ElohimsChampion />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -334,8 +357,7 @@ export const songLyrics = [
   {
     id: 151,
     title: "Emi Ajobiina",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <EmiAjobina />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -343,8 +365,7 @@ export const songLyrics = [
   {
     id: 30,
     title: "Everlasting God",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <EverlastingGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -352,8 +373,7 @@ export const songLyrics = [
   {
     id: 101,
     title: "Everlasting To Everlasting",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <EverlastingToEverlasting />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -361,7 +381,7 @@ export const songLyrics = [
   {
     id: 200,
     title: "Esteem Your Word",
-    description: "You are the God in all the earth",
+    description: <EsteemYourWord />,
     lyrics: "View",
     listen: "listen",
     thumbnail: esteemYourWordImage,
@@ -369,8 +389,7 @@ export const songLyrics = [
   {
     id: 116,
     title: "Excellent Glory",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -378,8 +397,7 @@ export const songLyrics = [
   {
     id: 13,
     title: "Expire Darkness",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -387,8 +405,7 @@ export const songLyrics = [
   {
     id: 166,
     title: "Eyes Only For You",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -396,8 +413,7 @@ export const songLyrics = [
   {
     id: 126,
     title: "Father And The Son",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -405,8 +421,7 @@ export const songLyrics = [
   {
     id: 127,
     title: "Father Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -414,8 +429,7 @@ export const songLyrics = [
   {
     id: 107,
     title: "Filling My Cup",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -423,8 +437,7 @@ export const songLyrics = [
   {
     id: 94,
     title: "For My Soul",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -432,8 +445,7 @@ export const songLyrics = [
   {
     id: 10,
     title: "From The Well Of Salvation",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -441,8 +453,7 @@ export const songLyrics = [
   {
     id: 114,
     title: "Gadol Adonai",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -450,8 +461,7 @@ export const songLyrics = [
   {
     id: 59,
     title: "Gift To Man",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -459,8 +469,7 @@ export const songLyrics = [
   {
     id: 69,
     title: "Give Us Understanding",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: giveUsUnderstandingImage,
@@ -468,8 +477,7 @@ export const songLyrics = [
   {
     id: 25,
     title: "Glorious God",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -477,8 +485,7 @@ export const songLyrics = [
   {
     id: 171,
     title: "Glory Call",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -486,8 +493,7 @@ export const songLyrics = [
   {
     id: 28,
     title: "Glory Melody",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -495,8 +501,7 @@ export const songLyrics = [
   {
     id: 116,
     title: "God Is Light",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -504,8 +509,7 @@ export const songLyrics = [
   {
     id: 125,
     title: "God Looks Good On Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -513,8 +517,7 @@ export const songLyrics = [
   {
     id: 178,
     title: "God Of All Grace",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -522,8 +525,7 @@ export const songLyrics = [
   {
     id: 152,
     title: "Gonna Get God",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -531,8 +533,7 @@ export const songLyrics = [
   {
     id: 135,
     title: "Great Adonai [Psalm 104]",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -540,8 +541,7 @@ export const songLyrics = [
   {
     id: 138,
     title: "Great And Marvellous",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -549,8 +549,7 @@ export const songLyrics = [
   {
     id: 105,
     title: "Hail The Lion Of Heaven",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: lionKingImage,
@@ -558,8 +557,7 @@ export const songLyrics = [
   {
     id: 7,
     title: "Hail The Most High",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -567,8 +565,7 @@ export const songLyrics = [
   {
     id: 67,
     title: "Hallelujah Chant",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -576,8 +573,7 @@ export const songLyrics = [
   {
     id: 68,
     title: "Hallelujah To My King",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -585,8 +581,7 @@ export const songLyrics = [
   {
     id: 16,
     title: "He Has Prevailed",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -594,8 +589,7 @@ export const songLyrics = [
   {
     id: 91,
     title: "He Reigns",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -603,8 +597,7 @@ export const songLyrics = [
   {
     id: 4,
     title: "He's God And A Man",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -612,7 +605,7 @@ export const songLyrics = [
   {
     id: 18,
     title: "Heavens React",
-    description: "Teach us to live the anointed life ",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: heavensReactImage,
@@ -620,8 +613,7 @@ export const songLyrics = [
   {
     id: 117,
     title: "High Heavens",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -629,8 +621,7 @@ export const songLyrics = [
   {
     id: 170,
     title: "Holy Jerusalem",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -638,8 +629,7 @@ export const songLyrics = [
   {
     id: 76,
     title: "Holy Lamb Of God",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -647,8 +637,7 @@ export const songLyrics = [
   {
     id: 137,
     title: "Holy Like You",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -656,8 +645,7 @@ export const songLyrics = [
   {
     id: 75,
     title: "Holy Lowly",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -665,8 +653,7 @@ export const songLyrics = [
   {
     id: 159,
     title: "How To Sing",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -674,8 +661,7 @@ export const songLyrics = [
   {
     id: 41,
     title: "I Am A Mourner",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -683,8 +669,7 @@ export const songLyrics = [
   {
     id: 96,
     title: "I Am That I Am",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: noLightSoBrightImage,
@@ -693,8 +678,7 @@ export const songLyrics = [
   {
     id: 23,
     title: "I Become",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -702,8 +686,7 @@ export const songLyrics = [
   {
     id: 129,
     title: "I Choose Life",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: iChooseLifeImage,
@@ -711,8 +694,7 @@ export const songLyrics = [
   {
     id: 88,
     title: "I Follow You",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -720,8 +702,7 @@ export const songLyrics = [
   {
     id: 158,
     title: "I Like The Holy Ghost (Mo Like Emi Mimo)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: moLikeEmiMimoImage,
@@ -729,8 +710,7 @@ export const songLyrics = [
   {
     id: 11,
     title: "Iye Re (This Is Life)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -738,8 +718,7 @@ export const songLyrics = [
   {
     id: 82,
     title: "Jaw Breaker",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -747,8 +726,7 @@ export const songLyrics = [
   {
     id: 148,
     title: "Jesus Adonai (Life Is Your Business)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: lifeIsYourBusinessImage,
@@ -757,8 +735,7 @@ export const songLyrics = [
   {
     id: 165,
     title: "Judge You Faithful",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -766,8 +743,7 @@ export const songLyrics = [
   {
     id: 60,
     title: "Kadosh",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -775,8 +751,7 @@ export const songLyrics = [
   {
     id: 48,
     title: "Last Last",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -784,8 +759,7 @@ export const songLyrics = [
   {
     id: 154,
     title: "Lightly Esteem",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -793,8 +767,7 @@ export const songLyrics = [
   {
     id: 89,
     title: "Lively Hope",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -802,8 +775,7 @@ export const songLyrics = [
   {
     id: 24,
     title: "Look For A City",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -811,8 +783,7 @@ export const songLyrics = [
   {
     id: 123,
     title: "Love Language",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -821,8 +792,7 @@ export const songLyrics = [
   {
     id: 43,
     title: "Love Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -830,8 +800,7 @@ export const songLyrics = [
   {
     id: 163,
     title: "Lover Of My Soul",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -839,8 +808,7 @@ export const songLyrics = [
   {
     id: 83,
     title: "Majesty",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -848,8 +816,7 @@ export const songLyrics = [
   {
     id: 92,
     title: "Many Mornings",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -857,8 +824,7 @@ export const songLyrics = [
   {
     id: 29,
     title: "Marvel",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -866,8 +832,7 @@ export const songLyrics = [
   {
     id: 44,
     title: "Master Lover",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -875,8 +840,7 @@ export const songLyrics = [
   {
     id: 37,
     title: "Meek And Lowly Substances",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -885,8 +849,7 @@ export const songLyrics = [
   {
     id: 63,
     title: "Mercy In Your Eye",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -894,8 +857,7 @@ export const songLyrics = [
   {
     id: 26,
     title: "Mercy Look On Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -903,8 +865,7 @@ export const songLyrics = [
   {
     id: 21,
     title: "More Beautiful",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -912,8 +873,7 @@ export const songLyrics = [
   {
     id: 36,
     title: "Most Holy",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -921,8 +881,7 @@ export const songLyrics = [
   {
     id: 33,
     title: "My Devotion",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -930,8 +889,7 @@ export const songLyrics = [
   {
     id: 58,
     title: "New Every Morning",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -939,8 +897,7 @@ export const songLyrics = [
   {
     id: 34,
     title: "Oh The Blood",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -948,8 +905,7 @@ export const songLyrics = [
   {
     id: 62,
     title: "Oh The Words Of Your Grace",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -957,8 +913,7 @@ export const songLyrics = [
   {
     id: 49,
     title: "Olives Are Gathered",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -966,8 +921,7 @@ export const songLyrics = [
   {
     id: 52,
     title: "Only You Can Satisfy",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -975,8 +929,7 @@ export const songLyrics = [
   {
     id: 40,
     title: "Opening Blind Eyes",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -984,8 +937,7 @@ export const songLyrics = [
   {
     id: 131,
     title: "Order Of The Kingdom",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -993,8 +945,7 @@ export const songLyrics = [
   {
     id: 51,
     title: "Our Forerunner",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1002,8 +953,7 @@ export const songLyrics = [
   {
     id: 56,
     title: "Our God Reigneth",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1011,8 +961,7 @@ export const songLyrics = [
   {
     id: 136,
     title: "Partake Of Life",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1020,8 +969,7 @@ export const songLyrics = [
   {
     id: 45,
     title: "Perform Mercy",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1029,8 +977,7 @@ export const songLyrics = [
   {
     id: 31,
     title: "Pinnacle Of Joy",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1038,8 +985,7 @@ export const songLyrics = [
   {
     id: 115,
     title: "Praise Adonai",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1047,8 +993,7 @@ export const songLyrics = [
   {
     id: 15,
     title: "Praise The Lord",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1056,8 +1001,7 @@ export const songLyrics = [
   {
     id: 140,
     title: "Prisoner Of Yahweh",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1065,8 +1009,7 @@ export const songLyrics = [
   {
     id: 156,
     title: "Radiance",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: radianceOfHisGloryImage,
@@ -1074,8 +1017,7 @@ export const songLyrics = [
   {
     id: 53,
     title: "Ravish My Heart",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1083,8 +1025,7 @@ export const songLyrics = [
   {
     id: 65,
     title: "Reign In Life",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1092,17 +1033,7 @@ export const songLyrics = [
   {
     id: 17,
     title: "Resurrection And The Life",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
-    lyrics: "View",
-    listen: "listen",
-    thumbnail: defaultImage,
-  },
-  {
-    id: 116,
-    title: "Excellent",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1110,8 +1041,7 @@ export const songLyrics = [
   {
     id: 77,
     title: "Resurrect Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1119,8 +1049,7 @@ export const songLyrics = [
   {
     id: 109,
     title: "Ruach Adonai",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: ruachAdonaiImage,
@@ -1128,8 +1057,7 @@ export const songLyrics = [
   {
     id: 42,
     title: "Safe In You",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1137,8 +1065,7 @@ export const songLyrics = [
   {
     id: 121,
     title: "Season Of The Spirit",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1146,8 +1073,7 @@ export const songLyrics = [
   {
     id: 120,
     title: "Seven Spirits Before The Throne",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1155,8 +1081,7 @@ export const songLyrics = [
   {
     id: 6,
     title: "Shine On Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1164,8 +1089,7 @@ export const songLyrics = [
   {
     id: 84,
     title: "Showers Of Mercy",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1173,8 +1097,7 @@ export const songLyrics = [
   {
     id: 113,
     title: "Shulamite Woman",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1182,8 +1105,7 @@ export const songLyrics = [
   {
     id: 66,
     title: "So Holy",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1191,8 +1113,7 @@ export const songLyrics = [
   {
     id: 174,
     title: "Songs Of Ascent",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1200,8 +1121,7 @@ export const songLyrics = [
   {
     id: 116,
     title: "Speak To Us (Publish Salvation)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: publishSalvationImage,
@@ -1209,8 +1129,7 @@ export const songLyrics = [
   {
     id: 14,
     title: "Strong Crying And Tears",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1218,8 +1137,7 @@ export const songLyrics = [
   {
     id: 155,
     title: "Strong Tower (God Willing)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1227,8 +1145,7 @@ export const songLyrics = [
   {
     id: 54,
     title: "Subject Of His Will",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1236,8 +1153,7 @@ export const songLyrics = [
   {
     id: 55,
     title: "Sweet To My Taste",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1245,17 +1161,15 @@ export const songLyrics = [
   {
     id: 164,
     title: "Take Rest",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
   },
   {
-    id: 160,
+    id: 182,
     title: "The Glory Ghost",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1263,8 +1177,7 @@ export const songLyrics = [
   {
     id: 175,
     title: "The Light Of The City",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1272,8 +1185,7 @@ export const songLyrics = [
   {
     id: 177,
     title: "The Pastors",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1281,8 +1193,7 @@ export const songLyrics = [
   {
     id: 73,
     title: "The Priest Is A Beast",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1290,8 +1201,7 @@ export const songLyrics = [
   {
     id: 147,
     title: "The Sacrifices Of God (Look On Me)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1299,8 +1209,7 @@ export const songLyrics = [
   {
     id: 102,
     title: "The Time Is At Hand!",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1308,8 +1217,7 @@ export const songLyrics = [
   {
     id: 1,
     title: "They Give Praise To God And To The Lamb",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1317,8 +1225,7 @@ export const songLyrics = [
   {
     id: 122,
     title: "This Generation",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1326,8 +1233,7 @@ export const songLyrics = [
   {
     id: 153,
     title: "Tidings Of Glory",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1335,8 +1241,7 @@ export const songLyrics = [
   {
     id: 12,
     title: "Tire L'Agbara",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1344,8 +1249,7 @@ export const songLyrics = [
   {
     id: 128,
     title: "To Him Who Sits Upon The Throne",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1353,8 +1257,7 @@ export const songLyrics = [
   {
     id: 85,
     title: "Touch My Hip",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1362,8 +1265,7 @@ export const songLyrics = [
   {
     id: 46,
     title: "Transfigure Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1371,8 +1273,7 @@ export const songLyrics = [
   {
     id: 169,
     title: "Utmost Fear",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1380,8 +1281,7 @@ export const songLyrics = [
   {
     id: 110,
     title: "Valiantly",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1389,8 +1289,7 @@ export const songLyrics = [
   {
     id: 130,
     title: "Walk With Patience",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1398,8 +1297,7 @@ export const songLyrics = [
   {
     id: 64,
     title: "Wail Jesus",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1407,8 +1305,7 @@ export const songLyrics = [
   {
     id: 9,
     title: "We Are Going To God ",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1416,8 +1313,7 @@ export const songLyrics = [
   {
     id: 173,
     title: "We Believe In Your Name",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1425,8 +1321,7 @@ export const songLyrics = [
   {
     id: 139,
     title: "We Bow Before Your Throne",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1434,8 +1329,7 @@ export const songLyrics = [
   {
     id: 20,
     title: "We Cry For Your Mercy",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1443,8 +1337,7 @@ export const songLyrics = [
   {
     id: 181,
     title: "We Receive Grace",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1452,8 +1345,7 @@ export const songLyrics = [
   {
     id: 141,
     title: "With You",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1461,8 +1353,7 @@ export const songLyrics = [
   {
     id: 176,
     title: "Worthy Archive",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1470,8 +1361,7 @@ export const songLyrics = [
   {
     id: 106,
     title: "Yahweh, Elohim",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: followYourWayImage,
@@ -1479,8 +1369,7 @@ export const songLyrics = [
   {
     id: 144,
     title: "You Are God, No Doubt (Holy Spirit Sing)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: holySpiritSingImage,
@@ -1488,8 +1377,7 @@ export const songLyrics = [
   {
     id: 143,
     title: "You Are Holy, El-Adonai",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1497,8 +1385,7 @@ export const songLyrics = [
   {
     id: 103,
     title: "You Are My Resting",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1506,8 +1393,7 @@ export const songLyrics = [
   {
     id: 32,
     title: "You Reign",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1515,8 +1401,7 @@ export const songLyrics = [
   {
     id: 132,
     title: "Your Commandments Of Everlasting Life",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: measureOutToMeImage,
@@ -1524,8 +1409,7 @@ export const songLyrics = [
   {
     id: 72,
     title: "Your Law",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1533,8 +1417,7 @@ export const songLyrics = [
   {
     id: 133,
     title: "Your Love",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1542,8 +1425,7 @@ export const songLyrics = [
   {
     id: 47,
     title: "Your Promise",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1551,8 +1433,7 @@ export const songLyrics = [
   {
     id: 100,
     title: "Your Voice",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1560,8 +1441,7 @@ export const songLyrics = [
   {
     id: 180,
     title: "You Will Come",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1569,8 +1449,7 @@ export const songLyrics = [
   {
     id: 172,
     title: "Joy Unspeakable",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1578,8 +1457,7 @@ export const songLyrics = [
   {
     id: 179,
     title: "The Voice Of The Lord (Psalm 129)",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1587,8 +1465,7 @@ export const songLyrics = [
   {
     id: 19,
     title: "Thoroughly Excercised",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: jesusTheHighPriestImage,
@@ -1596,8 +1473,7 @@ export const songLyrics = [
   {
     id: 57,
     title: "Make You Glad",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1605,8 +1481,7 @@ export const songLyrics = [
   {
     id: 70,
     title: "There Is A God",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1614,8 +1489,7 @@ export const songLyrics = [
   {
     id: 81,
     title: "Godly Fear",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1623,8 +1497,7 @@ export const songLyrics = [
   {
     id: 87,
     title: "The Lamb's Wife",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1632,8 +1505,7 @@ export const songLyrics = [
   {
     id: 111,
     title: "Smelling Everywhere",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1641,8 +1513,7 @@ export const songLyrics = [
   {
     id: 157,
     title: "Refine Me",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1650,8 +1521,7 @@ export const songLyrics = [
   {
     id: 900,
     title: "Glory To Glory",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: gloryToGloryImage,
@@ -1659,10 +1529,169 @@ export const songLyrics = [
   {
     id: 911,
     title: "Send Down",
-    description:
-      "This is the message that we have heard of Him and we declare unto you",
+    description: <BeMyMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: sendDownImage,
+  },
+  {
+    id: 183,
+    title: "Mu Mi Wole Ogo",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 184,
+    title: "Great And Terrible God",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 185,
+    title: "Smelling Like A Ram",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 186,
+    title: "I Find Grace",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 187,
+    title: "Longing For Me",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 188,
+    title: "All Of The Lights",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 189,
+    title: "Ya Yesu Na",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 190,
+    title: "Messiah The Priest",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 191,
+    title: "I'll Be A Spirit",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 192,
+    title: "A Heart Like Yours",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 193,
+    title: "Ile Ni Jesu",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 194,
+    title: "Mercy Conversations",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 195,
+    title: "Jesus In His Garments",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 196,
+    title: "Yah Yahweh",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 197,
+    title: "High Power Plus",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 198,
+    title: "Captivity",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 199,
+    title: "Amen-Man",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 200,
+    title: "Alufa",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 201,
+    title: "More Excellent Name",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
+  },
+  {
+    id: 202,
+    title: "Servant Like David",
+    description: <BeMyMan />,
+    lyrics: "View",
+    listen: "listen",
+    thumbnail: defaultImage,
   },
 ];
