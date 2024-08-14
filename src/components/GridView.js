@@ -12,12 +12,23 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { songLyrics } from "../components/constants/songLyrics";
+import LyricsModal from "./modals/LyricsModal";
 
 export const GridView = ({ searchQuery }) => {
   const [visibleDescription, setVisibleDescription] = useState(null);
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedSong, setSelectedSong] = useState(null);
 
   const toggleDescription = (index) => {
     setVisibleDescription((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+  const openModal = (song) => {
+    setSelectedSong(song);
+    setModalOpen(true);
+  };
+  const closeModal = () => {
+    setModalOpen(false);
   };
 
   const descriptionContainerStyle = css`
@@ -34,6 +45,21 @@ export const GridView = ({ searchQuery }) => {
   const descriptionHiddenStyle = css`
     padding: 0;
   `;
+
+  const viewButtonStyle = css`
+    display: none;
+    @media (max-width: 768px) {
+      display: inline-block;
+    }
+  `;
+
+  const viewLyricsButtonStyle = css`
+    display: inline-block;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `;
+
   const filteredLyrics = songLyrics.filter((song) =>
     // song.title &&
     // typeof song.title === "string" &&
@@ -71,9 +97,22 @@ export const GridView = ({ searchQuery }) => {
                   borderRadius={"42px"}
                   fontSize={"12px"}
                   fontWeight={"600"}
+                  css={viewButtonStyle}
                   onClick={() => toggleDescription(index)}
                 >
                   {visibleDescription === index ? "Hide" : "View"}
+                </Button>
+                <Button
+                  variant={"outline"}
+                  height={"31px"}
+                  // width={"67px"}
+                  borderRadius={"42px"}
+                  fontSize={"12px"}
+                  fontWeight={"600"}
+                  css={viewLyricsButtonStyle}
+                  onClick={() => openModal(card)}
+                >
+                  View Lyrics
                 </Button>
               </CardHeader>
 
@@ -125,6 +164,11 @@ export const GridView = ({ searchQuery }) => {
           <Text fontSize={"xl"}>Song Not Found!</Text>
         )}
       </SimpleGrid>
+      <LyricsModal
+        isOpen={modalOpen}
+        onClose={closeModal}
+        song={selectedSong}
+      />
     </>
   );
 };
