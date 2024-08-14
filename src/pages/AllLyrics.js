@@ -1,4 +1,6 @@
 import {
+  Button,
+  ButtonGroup,
   Flex,
   IconButton,
   Input,
@@ -8,14 +10,27 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { GridView } from "../components/GridView";
-import { AddIcon, Search2Icon, SearchIcon } from "@chakra-ui/icons";
+import {
+  AddIcon,
+  DragHandleIcon,
+  HamburgerIcon,
+  Search2Icon,
+  SearchIcon,
+} from "@chakra-ui/icons";
+import { ListView } from "../components/ListView";
 
 const AllLyrics = () => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [view, setView] = useState("grid");
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
+
+  const toggleView = (view) => {
+    setView(view);
+  };
+
   return (
     <>
       <Flex
@@ -46,9 +61,37 @@ const AllLyrics = () => {
               />
             </InputRightElement>
           </InputGroup>
+          <ButtonGroup ml={4}>
+            {view === "grid" ? (
+              // <Button
+              //
+              // >
+              //   List View
+              // </Button>
+              <IconButton
+                backgroundColor={"transparent"}
+                aria-label="List"
+                icon={<HamburgerIcon />}
+                onClick={() => toggleView("list")}
+                isActive={view === "list"}
+              />
+            ) : (
+              <IconButton
+                backgroundColor={"transparent"}
+                aria-label="List"
+                icon={<DragHandleIcon />}
+                onClick={() => toggleView("grid")}
+                isActive={view === "grid"}
+              />
+            )}
+          </ButtonGroup>
         </Flex>
         <br />
-        <GridView searchQuery={searchQuery} />
+        {view === "grid" ? (
+          <GridView searchQuery={searchQuery} />
+        ) : (
+          <ListView searchQuery={searchQuery} />
+        )}
       </Flex>
     </>
   );
