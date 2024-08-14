@@ -66,8 +66,6 @@ export const GridView = ({ searchQuery }) => {
     song.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  console.log(searchQuery);
-
   return (
     <>
       <SimpleGrid
