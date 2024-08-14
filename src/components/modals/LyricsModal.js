@@ -39,14 +39,14 @@ const LyricsModal = ({ isOpen, onClose, song }) => {
                 height={"270px"}
               />
               <Text fontSize={"lg"} as="b" mt={4}>
-                {song.title}
+                {song?.title}
               </Text>
               <Text fontSize={"sm"} as="em" mt={2}>
                 {song?.scripture}
               </Text>
             </Stack>
             <Stack width={"350px"}>
-              {song ? song.description : "No song selected"}
+              {song ? song?.description : "No song selected"}
             </Stack>
           </Flex>
         </ModalContent>
