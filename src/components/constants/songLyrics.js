@@ -72,6 +72,142 @@ import { FatherAndTheSon } from "../songs/FatherAndTheSon";
 import { FatherMe } from "../songs/FatherMe";
 import { FillingMyCup } from "../songs/FillingMyCup";
 import { ForMySoul } from "../songs/ForMySoul";
+import { FromTheWellofSalvation } from "../songs/FromTheWellofSalvation";
+import { GadolAdonai } from "../songs/GadolAdonai";
+import { GiftToMan } from "../songs/GiftToMan";
+import { GiveUsUnderstanding } from "../songs/GiveUsUnderstanding";
+import { GloriousGod } from "../songs/GloriousGod";
+import { GloryCall } from "../songs/GloryCall";
+import { GloryMelody } from "../songs/GloryMelody";
+import { GodIsLight } from "../songs/GodIsLight";
+import { GodLooksGoodOnMe } from "../songs/GodLooksGoodOnMe";
+import { GodOfAllGrace } from "../songs/GodOfAllGrace";
+import { GonnaGetGod } from "../songs/GonnaGetGod";
+import { GreatAdonai } from "../songs/GreatAdonai";
+import { GreatAndMarvellous } from "../songs/GreatAndMarvellous";
+import { HailTheLionOfHeaven } from "../songs/HailTheLionOfHeaven";
+import { HailTheMostHigh } from "../songs/HailTheMostHigh";
+import { HallelujahChant } from "../songs/HallelujahChant";
+import { HallelujahToMyKing } from "../songs/HallelujahToMyKing";
+import { HeHasPrevailed } from "../songs/HeHasPrevailed";
+import { HeReigns } from "../songs/HeReigns";
+import { HeIsGodAndAMan } from "../songs/HeIsGodAndAMan";
+import { HeavensReact } from "../songs/HeavensReact";
+import { HighHeavens } from "../songs/HighHeavens";
+import { HolyJerusalem } from "../songs/HolyJerusalem";
+import { HolyLambOfGod } from "../songs/HolyLambOfGod";
+import { HolyLikeYou } from "../songs/HolyLikeYou";
+import { HolyLowly } from "../songs/HolyLowly";
+import { HowToSing } from "../songs/HowToSing";
+import { IAmAMourner } from "../songs/IAmAMourner";
+import { IAmThatIAm } from "../songs/IAmThatIAm";
+import { IBecome } from "../songs/IBecome";
+import { IChooseLife } from "../songs/IChooseLife";
+import { IFollowYou } from "../songs/IFollowYou";
+import { MoLikeEmiMimo } from "../songs/MoLikeEmiMimo";
+import { IyeRe } from "../songs/IyeRe";
+import { JawBreaker } from "../songs/JawBreaker";
+import { LifeIsYourBusiness } from "../songs/LifeIsYourBusiness";
+import { JudgeYouFaithful } from "../songs/JudgeYouFaithful";
+import { Kadosh } from "../songs/Kadosh";
+import { LastLast } from "../songs/LastLast";
+import { LightlyEsteem } from "../songs/LightlyEsteem";
+import { LivelyHope } from "../songs/LivelyHope";
+import { LookingForACity } from "../songs/LookingForACity";
+import { LoveLanguage } from "../songs/LoveLanguage";
+import { LoveMe } from "../songs/LoveMe";
+import { LoverOfMySoul } from "../songs/LoverOfMySoul";
+import { Majesty } from "../songs/Majesty";
+import { ManyMornings } from "../songs/ManyMornings";
+import { Marvel } from "../songs/Marvel";
+import { MasterLover } from "../songs/MasterLover";
+import { MeekAndLowlySubstances } from "../songs/MeekAndLowlySubstances";
+import { MercyInYourEye } from "../songs/MercyInYourEye";
+import { MercyLookOnMe } from "../songs/MercyLookOnMe";
+import { MoreBeautiful } from "../songs/MoreBeautiful";
+import { MostHoly } from "../songs/MostHoly";
+import { MyDevotion } from "../songs/MyDevotion";
+import { NewEveryMorning } from "../songs/NewEveryMorning";
+import { OhTheBlood } from "../songs/OhTheBlood";
+import { OhTheWordsOfYourGrace } from "../songs/OhTheWordsOfYourGrace";
+import { OlivesAreGathered } from "../songs/OlivesAreGathered";
+import { OnlyYouCanSatisfy } from "../songs/OnlyYouCanSatisfy";
+import { OpeningBlindEyes } from "../songs/OpeningBlindEyes";
+import { OrderOfTheKingdom } from "../songs/OrderOfTheKingdom";
+import { OurForerunner } from "../songs/OurForerunner";
+import { OurGodReigneth } from "../songs/OurGodReigneth";
+import { PartakeOfLife } from "../songs/PartakeOfLife";
+import { PerformMercy } from "../songs/PerformMercy";
+import { PinnacleOfJoy } from "../songs/PinnacleOfJoy";
+import { PraiseAdonai } from "../songs/PraiseAdonai";
+import { PraiseTheLord } from "../songs/PraiseTheLord";
+import { PrisonerOfYahweh } from "../songs/PrisonerOfYahweh";
+import { Radiance } from "../songs/Radiance";
+import { RavishMyHeart } from "../songs/RavishMyHeart";
+import { ReignInLife } from "../songs/ReignInLife";
+import { ResurrectionAndTheLife } from "../songs/ResurrectionAndTheLife";
+import { ResurrectMe } from "../songs/ResurrectMe";
+import { RuachAdonai } from "../songs/RuachAdonai";
+import { SafeInYou } from "../songs/SafeInYou";
+import { SeasonOfTheSpirit } from "../songs/SeasonOfTheSpirit";
+import { SevenSpirits } from "../songs/SevenSpirits";
+import { ShineOnMe } from "../songs/ShineOnMe";
+import { ShowersOfMercy } from "../songs/ShowersOfMercy";
+import { ShulamiteWoman } from "../songs/ShulamiteWoman";
+import { SoHoly } from "../songs/SoHoly";
+import { SongsOfAscent } from "../songs/SongsOfAscent";
+import { PublishSalvation } from "../songs/PublishSalvation";
+import { StrongCryingAndTears } from "../songs/StrongCryingAndTears";
+import { StrongTower } from "../songs/StrongTower";
+import { SubjectOfHisWill } from "../songs/SubjectOfHisWill";
+import { SweetToMyTaste } from "../songs/SweetToMyTaste";
+import { TakeRest } from "../songs/TakeRest";
+import { TheGloryGhost } from "../songs/TheGloryGhost";
+import { TheLightOfTheCity } from "../songs/TheLightOfTheCity";
+import { ThePastors } from "../songs/ThePastors";
+import { ThePriestIsABeast } from "../songs/ThePriestIsABeast";
+import { TheSacrificesOfGod } from "../songs/TheSacrificesOfGod";
+import { TheTimeIsAtHand } from "../songs/TheTimeIsAtHand";
+import { TheyGivePraiseToGod } from "../songs/TheyGivePraiseToGod";
+import { ThisGeneration } from "../songs/ThisGeneration";
+import { TidingsOfGlory } from "../songs/TidingsOfGlory";
+import { TireLagbara } from "../songs/TireLagbara";
+import { ToHimWhoSitsUpon } from "../songs/ToHimWhoSitsUpon";
+import { TouchMyHip } from "../songs/TouchMyHip";
+import { TransfigureMe } from "../songs/TransfigureMe";
+import { UtmostFear } from "../songs/UtmostFear";
+import { Valiantly } from "../songs/Valiantly";
+import { WalkWIthPatience } from "../songs/WalkWIthPatience";
+import { WailJesus } from "../songs/WailJesus";
+import { WeAreGoingToGod } from "../songs/WeAreGoingToGod";
+import { WeBelieveInYourName } from "../songs/WeBelieveInYourName";
+import { WeBowBeforeYourThrone } from "../songs/WeBowBeforeYourThrone";
+import { WeCryForYourMercy } from "../songs/WeCryForYourMercy";
+import { WeReceive } from "../songs/WeReceive";
+import { WithYou } from "../songs/WithYou";
+import { WorthyArchive } from "../songs/WorthyArchive";
+import { YahwehElohimYahweh } from "../songs/YahwehElohimYahweh";
+import { YouAreGodNoDoubt } from "../songs/YouAreGodNoDoubt";
+import { YouAreHoly } from "../songs/YouAreHoly";
+import { YouAreMyRest } from "../songs/YouAreMyRest";
+import { YouReign } from "../songs/YouReign";
+import { MeasureOutToMe } from "../songs/MeasureOutToMe";
+import { YourLaw } from "../songs/YourLaw";
+import { YourLove } from "../songs/YourLove";
+import { YourPromise } from "../songs/YourPromise";
+import { YourVoice } from "../songs/YourVoice";
+import { YouWillCome } from "../songs/YouWillCome";
+import { JoyUnspeakable } from "../songs/JoyUnspeakable";
+import { TheVoiceOfTheLord } from "../songs/TheVoiceOfTheLord";
+import { ThoroughlyExercised } from "../songs/ThoroughlyExercised";
+import { MakeYouGlad } from "../songs/MakeYouGlad";
+import { ThereIsAGod } from "../songs/ThereIsAGod";
+import { GodlyFear } from "../songs/GodlyFear";
+import { TheLambsWife } from "../songs/TheLambsWife";
+import { SmellingEverywhere } from "../songs/SmellingEverywhere";
+import { RefineMe } from "../songs/RefineMe";
+import { GloryToGlory } from "../songs/GloryToGlory";
+import { SendDown } from "../songs/SendDown";
 
 export const songLyrics = [
   {
@@ -81,6 +217,7 @@ export const songLyrics = [
     lyrics: "View",
     listen: "listen",
     thumbnail: aboveEveryNameImage,
+    scripture: "Colossians 1:8",
   },
   {
     id: 79,
@@ -389,7 +526,7 @@ export const songLyrics = [
   {
     id: 116,
     title: "Excellent Glory",
-    description: <BeMyMan />,
+    description: <ExcellentGlory />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -397,7 +534,7 @@ export const songLyrics = [
   {
     id: 13,
     title: "Expire Darkness",
-    description: <BeMyMan />,
+    description: <ExpireDarkness />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -405,7 +542,7 @@ export const songLyrics = [
   {
     id: 166,
     title: "Eyes Only For You",
-    description: <BeMyMan />,
+    description: <EyesOnlyForYou />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -413,7 +550,7 @@ export const songLyrics = [
   {
     id: 126,
     title: "Father And The Son",
-    description: <BeMyMan />,
+    description: <FatherAndTheSon />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -421,7 +558,7 @@ export const songLyrics = [
   {
     id: 127,
     title: "Father Me",
-    description: <BeMyMan />,
+    description: <FatherMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -429,7 +566,7 @@ export const songLyrics = [
   {
     id: 107,
     title: "Filling My Cup",
-    description: <BeMyMan />,
+    description: <FillingMyCup />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -437,7 +574,7 @@ export const songLyrics = [
   {
     id: 94,
     title: "For My Soul",
-    description: <BeMyMan />,
+    description: <ForMySoul />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -445,7 +582,7 @@ export const songLyrics = [
   {
     id: 10,
     title: "From The Well Of Salvation",
-    description: <BeMyMan />,
+    description: <FromTheWellofSalvation />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -453,7 +590,7 @@ export const songLyrics = [
   {
     id: 114,
     title: "Gadol Adonai",
-    description: <BeMyMan />,
+    description: <GadolAdonai />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -461,7 +598,7 @@ export const songLyrics = [
   {
     id: 59,
     title: "Gift To Man",
-    description: <BeMyMan />,
+    description: <GiftToMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -469,7 +606,7 @@ export const songLyrics = [
   {
     id: 69,
     title: "Give Us Understanding",
-    description: <BeMyMan />,
+    description: <GiveUsUnderstanding />,
     lyrics: "View",
     listen: "listen",
     thumbnail: giveUsUnderstandingImage,
@@ -477,7 +614,7 @@ export const songLyrics = [
   {
     id: 25,
     title: "Glorious God",
-    description: <BeMyMan />,
+    description: <GloriousGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -485,7 +622,7 @@ export const songLyrics = [
   {
     id: 171,
     title: "Glory Call",
-    description: <BeMyMan />,
+    description: <GloryCall />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -493,7 +630,7 @@ export const songLyrics = [
   {
     id: 28,
     title: "Glory Melody",
-    description: <BeMyMan />,
+    description: <GloryMelody />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -501,7 +638,7 @@ export const songLyrics = [
   {
     id: 116,
     title: "God Is Light",
-    description: <BeMyMan />,
+    description: <GodIsLight />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -509,7 +646,7 @@ export const songLyrics = [
   {
     id: 125,
     title: "God Looks Good On Me",
-    description: <BeMyMan />,
+    description: <GodLooksGoodOnMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -517,7 +654,7 @@ export const songLyrics = [
   {
     id: 178,
     title: "God Of All Grace",
-    description: <BeMyMan />,
+    description: <GodOfAllGrace />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -525,7 +662,7 @@ export const songLyrics = [
   {
     id: 152,
     title: "Gonna Get God",
-    description: <BeMyMan />,
+    description: <GonnaGetGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -533,7 +670,7 @@ export const songLyrics = [
   {
     id: 135,
     title: "Great Adonai [Psalm 104]",
-    description: <BeMyMan />,
+    description: <GreatAdonai />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -541,7 +678,7 @@ export const songLyrics = [
   {
     id: 138,
     title: "Great And Marvellous",
-    description: <BeMyMan />,
+    description: <GreatAndMarvellous />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -549,7 +686,7 @@ export const songLyrics = [
   {
     id: 105,
     title: "Hail The Lion Of Heaven",
-    description: <BeMyMan />,
+    description: <HailTheLionOfHeaven />,
     lyrics: "View",
     listen: "listen",
     thumbnail: lionKingImage,
@@ -557,7 +694,7 @@ export const songLyrics = [
   {
     id: 7,
     title: "Hail The Most High",
-    description: <BeMyMan />,
+    description: <HailTheMostHigh />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -565,7 +702,7 @@ export const songLyrics = [
   {
     id: 67,
     title: "Hallelujah Chant",
-    description: <BeMyMan />,
+    description: <HallelujahChant />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -573,7 +710,7 @@ export const songLyrics = [
   {
     id: 68,
     title: "Hallelujah To My King",
-    description: <BeMyMan />,
+    description: <HallelujahToMyKing />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -581,7 +718,7 @@ export const songLyrics = [
   {
     id: 16,
     title: "He Has Prevailed",
-    description: <BeMyMan />,
+    description: <HeHasPrevailed />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -589,7 +726,7 @@ export const songLyrics = [
   {
     id: 91,
     title: "He Reigns",
-    description: <BeMyMan />,
+    description: <HeReigns />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -597,7 +734,7 @@ export const songLyrics = [
   {
     id: 4,
     title: "He's God And A Man",
-    description: <BeMyMan />,
+    description: <HeIsGodAndAMan />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -605,7 +742,7 @@ export const songLyrics = [
   {
     id: 18,
     title: "Heavens React",
-    description: <BeMyMan />,
+    description: <HeavensReact />,
     lyrics: "View",
     listen: "listen",
     thumbnail: heavensReactImage,
@@ -613,7 +750,7 @@ export const songLyrics = [
   {
     id: 117,
     title: "High Heavens",
-    description: <BeMyMan />,
+    description: <HighHeavens />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -621,7 +758,7 @@ export const songLyrics = [
   {
     id: 170,
     title: "Holy Jerusalem",
-    description: <BeMyMan />,
+    description: <HolyJerusalem />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -629,7 +766,7 @@ export const songLyrics = [
   {
     id: 76,
     title: "Holy Lamb Of God",
-    description: <BeMyMan />,
+    description: <HolyLambOfGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -637,7 +774,7 @@ export const songLyrics = [
   {
     id: 137,
     title: "Holy Like You",
-    description: <BeMyMan />,
+    description: <HolyLikeYou />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -645,7 +782,7 @@ export const songLyrics = [
   {
     id: 75,
     title: "Holy Lowly",
-    description: <BeMyMan />,
+    description: <HolyLowly />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -653,7 +790,7 @@ export const songLyrics = [
   {
     id: 159,
     title: "How To Sing",
-    description: <BeMyMan />,
+    description: <HowToSing />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -661,7 +798,7 @@ export const songLyrics = [
   {
     id: 41,
     title: "I Am A Mourner",
-    description: <BeMyMan />,
+    description: <IAmAMourner />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -669,7 +806,7 @@ export const songLyrics = [
   {
     id: 96,
     title: "I Am That I Am",
-    description: <BeMyMan />,
+    description: <IAmThatIAm />,
     lyrics: "View",
     listen: "listen",
     thumbnail: noLightSoBrightImage,
@@ -678,7 +815,7 @@ export const songLyrics = [
   {
     id: 23,
     title: "I Become",
-    description: <BeMyMan />,
+    description: <IBecome />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -686,7 +823,7 @@ export const songLyrics = [
   {
     id: 129,
     title: "I Choose Life",
-    description: <BeMyMan />,
+    description: <IChooseLife />,
     lyrics: "View",
     listen: "listen",
     thumbnail: iChooseLifeImage,
@@ -694,7 +831,7 @@ export const songLyrics = [
   {
     id: 88,
     title: "I Follow You",
-    description: <BeMyMan />,
+    description: <IFollowYou />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -702,7 +839,7 @@ export const songLyrics = [
   {
     id: 158,
     title: "I Like The Holy Ghost (Mo Like Emi Mimo)",
-    description: <BeMyMan />,
+    description: <MoLikeEmiMimo />,
     lyrics: "View",
     listen: "listen",
     thumbnail: moLikeEmiMimoImage,
@@ -710,7 +847,7 @@ export const songLyrics = [
   {
     id: 11,
     title: "Iye Re (This Is Life)",
-    description: <BeMyMan />,
+    description: <IyeRe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -718,7 +855,7 @@ export const songLyrics = [
   {
     id: 82,
     title: "Jaw Breaker",
-    description: <BeMyMan />,
+    description: <JawBreaker />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -726,7 +863,7 @@ export const songLyrics = [
   {
     id: 148,
     title: "Jesus Adonai (Life Is Your Business)",
-    description: <BeMyMan />,
+    description: <LifeIsYourBusiness />,
     lyrics: "View",
     listen: "listen",
     thumbnail: lifeIsYourBusinessImage,
@@ -735,7 +872,7 @@ export const songLyrics = [
   {
     id: 165,
     title: "Judge You Faithful",
-    description: <BeMyMan />,
+    description: <JudgeYouFaithful />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -743,7 +880,7 @@ export const songLyrics = [
   {
     id: 60,
     title: "Kadosh",
-    description: <BeMyMan />,
+    description: <Kadosh />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -751,7 +888,7 @@ export const songLyrics = [
   {
     id: 48,
     title: "Last Last",
-    description: <BeMyMan />,
+    description: <LastLast />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -759,7 +896,7 @@ export const songLyrics = [
   {
     id: 154,
     title: "Lightly Esteem",
-    description: <BeMyMan />,
+    description: <LightlyEsteem />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -767,7 +904,7 @@ export const songLyrics = [
   {
     id: 89,
     title: "Lively Hope",
-    description: <BeMyMan />,
+    description: <LivelyHope />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -775,7 +912,7 @@ export const songLyrics = [
   {
     id: 24,
     title: "Look For A City",
-    description: <BeMyMan />,
+    description: <LookingForACity />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -783,7 +920,7 @@ export const songLyrics = [
   {
     id: 123,
     title: "Love Language",
-    description: <BeMyMan />,
+    description: <LoveLanguage />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -792,7 +929,7 @@ export const songLyrics = [
   {
     id: 43,
     title: "Love Me",
-    description: <BeMyMan />,
+    description: <LoveMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -800,7 +937,7 @@ export const songLyrics = [
   {
     id: 163,
     title: "Lover Of My Soul",
-    description: <BeMyMan />,
+    description: <LoverOfMySoul />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -808,7 +945,7 @@ export const songLyrics = [
   {
     id: 83,
     title: "Majesty",
-    description: <BeMyMan />,
+    description: <Majesty />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -816,7 +953,7 @@ export const songLyrics = [
   {
     id: 92,
     title: "Many Mornings",
-    description: <BeMyMan />,
+    description: <ManyMornings />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -824,7 +961,7 @@ export const songLyrics = [
   {
     id: 29,
     title: "Marvel",
-    description: <BeMyMan />,
+    description: <Marvel />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -832,7 +969,7 @@ export const songLyrics = [
   {
     id: 44,
     title: "Master Lover",
-    description: <BeMyMan />,
+    description: <MasterLover />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -840,7 +977,7 @@ export const songLyrics = [
   {
     id: 37,
     title: "Meek And Lowly Substances",
-    description: <BeMyMan />,
+    description: <MeekAndLowlySubstances />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -849,7 +986,7 @@ export const songLyrics = [
   {
     id: 63,
     title: "Mercy In Your Eye",
-    description: <BeMyMan />,
+    description: <MercyInYourEye />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -857,7 +994,7 @@ export const songLyrics = [
   {
     id: 26,
     title: "Mercy Look On Me",
-    description: <BeMyMan />,
+    description: <MercyLookOnMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -865,7 +1002,7 @@ export const songLyrics = [
   {
     id: 21,
     title: "More Beautiful",
-    description: <BeMyMan />,
+    description: <MoreBeautiful />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -873,7 +1010,7 @@ export const songLyrics = [
   {
     id: 36,
     title: "Most Holy",
-    description: <BeMyMan />,
+    description: <MostHoly />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -881,7 +1018,7 @@ export const songLyrics = [
   {
     id: 33,
     title: "My Devotion",
-    description: <BeMyMan />,
+    description: <MyDevotion />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -889,7 +1026,7 @@ export const songLyrics = [
   {
     id: 58,
     title: "New Every Morning",
-    description: <BeMyMan />,
+    description: <NewEveryMorning />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -897,7 +1034,7 @@ export const songLyrics = [
   {
     id: 34,
     title: "Oh The Blood",
-    description: <BeMyMan />,
+    description: <OhTheBlood />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -905,7 +1042,7 @@ export const songLyrics = [
   {
     id: 62,
     title: "Oh The Words Of Your Grace",
-    description: <BeMyMan />,
+    description: <OhTheWordsOfYourGrace />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -913,7 +1050,7 @@ export const songLyrics = [
   {
     id: 49,
     title: "Olives Are Gathered",
-    description: <BeMyMan />,
+    description: <OlivesAreGathered />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -921,7 +1058,7 @@ export const songLyrics = [
   {
     id: 52,
     title: "Only You Can Satisfy",
-    description: <BeMyMan />,
+    description: <OnlyYouCanSatisfy />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -929,7 +1066,7 @@ export const songLyrics = [
   {
     id: 40,
     title: "Opening Blind Eyes",
-    description: <BeMyMan />,
+    description: <OpeningBlindEyes />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -937,7 +1074,7 @@ export const songLyrics = [
   {
     id: 131,
     title: "Order Of The Kingdom",
-    description: <BeMyMan />,
+    description: <OrderOfTheKingdom />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -945,7 +1082,7 @@ export const songLyrics = [
   {
     id: 51,
     title: "Our Forerunner",
-    description: <BeMyMan />,
+    description: <OurForerunner />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -953,7 +1090,7 @@ export const songLyrics = [
   {
     id: 56,
     title: "Our God Reigneth",
-    description: <BeMyMan />,
+    description: <OurGodReigneth />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -961,7 +1098,7 @@ export const songLyrics = [
   {
     id: 136,
     title: "Partake Of Life",
-    description: <BeMyMan />,
+    description: <PartakeOfLife />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -969,7 +1106,7 @@ export const songLyrics = [
   {
     id: 45,
     title: "Perform Mercy",
-    description: <BeMyMan />,
+    description: <PerformMercy />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -977,7 +1114,7 @@ export const songLyrics = [
   {
     id: 31,
     title: "Pinnacle Of Joy",
-    description: <BeMyMan />,
+    description: <PinnacleOfJoy />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -985,7 +1122,7 @@ export const songLyrics = [
   {
     id: 115,
     title: "Praise Adonai",
-    description: <BeMyMan />,
+    description: <PraiseAdonai />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -993,7 +1130,7 @@ export const songLyrics = [
   {
     id: 15,
     title: "Praise The Lord",
-    description: <BeMyMan />,
+    description: <PraiseTheLord />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1001,7 +1138,7 @@ export const songLyrics = [
   {
     id: 140,
     title: "Prisoner Of Yahweh",
-    description: <BeMyMan />,
+    description: <PrisonerOfYahweh />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1009,7 +1146,7 @@ export const songLyrics = [
   {
     id: 156,
     title: "Radiance",
-    description: <BeMyMan />,
+    description: <Radiance />,
     lyrics: "View",
     listen: "listen",
     thumbnail: radianceOfHisGloryImage,
@@ -1017,7 +1154,7 @@ export const songLyrics = [
   {
     id: 53,
     title: "Ravish My Heart",
-    description: <BeMyMan />,
+    description: <RavishMyHeart />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1025,7 +1162,7 @@ export const songLyrics = [
   {
     id: 65,
     title: "Reign In Life",
-    description: <BeMyMan />,
+    description: <ReignInLife />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1033,7 +1170,7 @@ export const songLyrics = [
   {
     id: 17,
     title: "Resurrection And The Life",
-    description: <BeMyMan />,
+    description: <ResurrectionAndTheLife />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1041,7 +1178,7 @@ export const songLyrics = [
   {
     id: 77,
     title: "Resurrect Me",
-    description: <BeMyMan />,
+    description: <ResurrectMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1049,7 +1186,7 @@ export const songLyrics = [
   {
     id: 109,
     title: "Ruach Adonai",
-    description: <BeMyMan />,
+    description: <RuachAdonai />,
     lyrics: "View",
     listen: "listen",
     thumbnail: ruachAdonaiImage,
@@ -1057,7 +1194,7 @@ export const songLyrics = [
   {
     id: 42,
     title: "Safe In You",
-    description: <BeMyMan />,
+    description: <SafeInYou />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1065,7 +1202,7 @@ export const songLyrics = [
   {
     id: 121,
     title: "Season Of The Spirit",
-    description: <BeMyMan />,
+    description: <SeasonOfTheSpirit />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1073,7 +1210,7 @@ export const songLyrics = [
   {
     id: 120,
     title: "Seven Spirits Before The Throne",
-    description: <BeMyMan />,
+    description: <SevenSpirits />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1081,7 +1218,7 @@ export const songLyrics = [
   {
     id: 6,
     title: "Shine On Me",
-    description: <BeMyMan />,
+    description: <ShineOnMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1089,7 +1226,7 @@ export const songLyrics = [
   {
     id: 84,
     title: "Showers Of Mercy",
-    description: <BeMyMan />,
+    description: <ShowersOfMercy />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1097,7 +1234,7 @@ export const songLyrics = [
   {
     id: 113,
     title: "Shulamite Woman",
-    description: <BeMyMan />,
+    description: <ShulamiteWoman />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1105,7 +1242,7 @@ export const songLyrics = [
   {
     id: 66,
     title: "So Holy",
-    description: <BeMyMan />,
+    description: <SoHoly />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1113,7 +1250,7 @@ export const songLyrics = [
   {
     id: 174,
     title: "Songs Of Ascent",
-    description: <BeMyMan />,
+    description: <SongsOfAscent />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1121,7 +1258,7 @@ export const songLyrics = [
   {
     id: 116,
     title: "Speak To Us (Publish Salvation)",
-    description: <BeMyMan />,
+    description: <PublishSalvation />,
     lyrics: "View",
     listen: "listen",
     thumbnail: publishSalvationImage,
@@ -1129,7 +1266,7 @@ export const songLyrics = [
   {
     id: 14,
     title: "Strong Crying And Tears",
-    description: <BeMyMan />,
+    description: <StrongCryingAndTears />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1137,7 +1274,7 @@ export const songLyrics = [
   {
     id: 155,
     title: "Strong Tower (God Willing)",
-    description: <BeMyMan />,
+    description: <StrongTower />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1145,7 +1282,7 @@ export const songLyrics = [
   {
     id: 54,
     title: "Subject Of His Will",
-    description: <BeMyMan />,
+    description: <SubjectOfHisWill />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1153,7 +1290,7 @@ export const songLyrics = [
   {
     id: 55,
     title: "Sweet To My Taste",
-    description: <BeMyMan />,
+    description: <SweetToMyTaste />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1161,7 +1298,7 @@ export const songLyrics = [
   {
     id: 164,
     title: "Take Rest",
-    description: <BeMyMan />,
+    description: <TakeRest />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1169,7 +1306,7 @@ export const songLyrics = [
   {
     id: 182,
     title: "The Glory Ghost",
-    description: <BeMyMan />,
+    description: <TheGloryGhost />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1177,7 +1314,7 @@ export const songLyrics = [
   {
     id: 175,
     title: "The Light Of The City",
-    description: <BeMyMan />,
+    description: <TheLightOfTheCity />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1185,7 +1322,7 @@ export const songLyrics = [
   {
     id: 177,
     title: "The Pastors",
-    description: <BeMyMan />,
+    description: <ThePastors />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1193,7 +1330,7 @@ export const songLyrics = [
   {
     id: 73,
     title: "The Priest Is A Beast",
-    description: <BeMyMan />,
+    description: <ThePriestIsABeast />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1201,7 +1338,7 @@ export const songLyrics = [
   {
     id: 147,
     title: "The Sacrifices Of God (Look On Me)",
-    description: <BeMyMan />,
+    description: <TheSacrificesOfGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1209,7 +1346,7 @@ export const songLyrics = [
   {
     id: 102,
     title: "The Time Is At Hand!",
-    description: <BeMyMan />,
+    description: <TheTimeIsAtHand />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1217,7 +1354,7 @@ export const songLyrics = [
   {
     id: 1,
     title: "They Give Praise To God And To The Lamb",
-    description: <BeMyMan />,
+    description: <TheyGivePraiseToGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1225,7 +1362,7 @@ export const songLyrics = [
   {
     id: 122,
     title: "This Generation",
-    description: <BeMyMan />,
+    description: <ThisGeneration />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1233,7 +1370,7 @@ export const songLyrics = [
   {
     id: 153,
     title: "Tidings Of Glory",
-    description: <BeMyMan />,
+    description: <TidingsOfGlory />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1241,7 +1378,7 @@ export const songLyrics = [
   {
     id: 12,
     title: "Tire L'Agbara",
-    description: <BeMyMan />,
+    description: <TireLagbara />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1249,7 +1386,7 @@ export const songLyrics = [
   {
     id: 128,
     title: "To Him Who Sits Upon The Throne",
-    description: <BeMyMan />,
+    description: <ToHimWhoSitsUpon />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1257,7 +1394,7 @@ export const songLyrics = [
   {
     id: 85,
     title: "Touch My Hip",
-    description: <BeMyMan />,
+    description: <TouchMyHip />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1265,7 +1402,7 @@ export const songLyrics = [
   {
     id: 46,
     title: "Transfigure Me",
-    description: <BeMyMan />,
+    description: <TransfigureMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1273,7 +1410,7 @@ export const songLyrics = [
   {
     id: 169,
     title: "Utmost Fear",
-    description: <BeMyMan />,
+    description: <UtmostFear />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1281,7 +1418,7 @@ export const songLyrics = [
   {
     id: 110,
     title: "Valiantly",
-    description: <BeMyMan />,
+    description: <Valiantly />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1289,7 +1426,7 @@ export const songLyrics = [
   {
     id: 130,
     title: "Walk With Patience",
-    description: <BeMyMan />,
+    description: <WalkWIthPatience />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1297,7 +1434,7 @@ export const songLyrics = [
   {
     id: 64,
     title: "Wail Jesus",
-    description: <BeMyMan />,
+    description: <WailJesus />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1305,7 +1442,7 @@ export const songLyrics = [
   {
     id: 9,
     title: "We Are Going To God ",
-    description: <BeMyMan />,
+    description: <WeAreGoingToGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1313,7 +1450,7 @@ export const songLyrics = [
   {
     id: 173,
     title: "We Believe In Your Name",
-    description: <BeMyMan />,
+    description: <WeBelieveInYourName />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1321,7 +1458,7 @@ export const songLyrics = [
   {
     id: 139,
     title: "We Bow Before Your Throne",
-    description: <BeMyMan />,
+    description: <WeBowBeforeYourThrone />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1329,7 +1466,7 @@ export const songLyrics = [
   {
     id: 20,
     title: "We Cry For Your Mercy",
-    description: <BeMyMan />,
+    description: <WeCryForYourMercy />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1337,7 +1474,7 @@ export const songLyrics = [
   {
     id: 181,
     title: "We Receive Grace",
-    description: <BeMyMan />,
+    description: <WeReceive />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1345,7 +1482,7 @@ export const songLyrics = [
   {
     id: 141,
     title: "With You",
-    description: <BeMyMan />,
+    description: <WithYou />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1353,15 +1490,15 @@ export const songLyrics = [
   {
     id: 176,
     title: "Worthy Archive",
-    description: <BeMyMan />,
+    description: <WorthyArchive />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
   },
   {
     id: 106,
-    title: "Yahweh, Elohim",
-    description: <BeMyMan />,
+    title: "Yahweh, Elohim Yahweh",
+    description: <YahwehElohimYahweh />,
     lyrics: "View",
     listen: "listen",
     thumbnail: followYourWayImage,
@@ -1369,7 +1506,7 @@ export const songLyrics = [
   {
     id: 144,
     title: "You Are God, No Doubt (Holy Spirit Sing)",
-    description: <BeMyMan />,
+    description: <YouAreGodNoDoubt />,
     lyrics: "View",
     listen: "listen",
     thumbnail: holySpiritSingImage,
@@ -1377,7 +1514,7 @@ export const songLyrics = [
   {
     id: 143,
     title: "You Are Holy, El-Adonai",
-    description: <BeMyMan />,
+    description: <YouAreHoly />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1385,7 +1522,7 @@ export const songLyrics = [
   {
     id: 103,
     title: "You Are My Resting",
-    description: <BeMyMan />,
+    description: <YouAreMyRest />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1393,7 +1530,7 @@ export const songLyrics = [
   {
     id: 32,
     title: "You Reign",
-    description: <BeMyMan />,
+    description: <YouReign />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1401,7 +1538,7 @@ export const songLyrics = [
   {
     id: 132,
     title: "Your Commandments Of Everlasting Life",
-    description: <BeMyMan />,
+    description: <MeasureOutToMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: measureOutToMeImage,
@@ -1409,7 +1546,7 @@ export const songLyrics = [
   {
     id: 72,
     title: "Your Law",
-    description: <BeMyMan />,
+    description: <YourLaw />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1417,7 +1554,7 @@ export const songLyrics = [
   {
     id: 133,
     title: "Your Love",
-    description: <BeMyMan />,
+    description: <YourLove />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1425,7 +1562,7 @@ export const songLyrics = [
   {
     id: 47,
     title: "Your Promise",
-    description: <BeMyMan />,
+    description: <YourPromise />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1433,7 +1570,7 @@ export const songLyrics = [
   {
     id: 100,
     title: "Your Voice",
-    description: <BeMyMan />,
+    description: <YourVoice />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1441,7 +1578,7 @@ export const songLyrics = [
   {
     id: 180,
     title: "You Will Come",
-    description: <BeMyMan />,
+    description: <YouWillCome />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1449,7 +1586,7 @@ export const songLyrics = [
   {
     id: 172,
     title: "Joy Unspeakable",
-    description: <BeMyMan />,
+    description: <JoyUnspeakable />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1457,7 +1594,7 @@ export const songLyrics = [
   {
     id: 179,
     title: "The Voice Of The Lord (Psalm 129)",
-    description: <BeMyMan />,
+    description: <TheVoiceOfTheLord />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1465,7 +1602,7 @@ export const songLyrics = [
   {
     id: 19,
     title: "Thoroughly Excercised",
-    description: <BeMyMan />,
+    description: <ThoroughlyExercised />,
     lyrics: "View",
     listen: "listen",
     thumbnail: jesusTheHighPriestImage,
@@ -1473,7 +1610,7 @@ export const songLyrics = [
   {
     id: 57,
     title: "Make You Glad",
-    description: <BeMyMan />,
+    description: <MakeYouGlad />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1481,7 +1618,7 @@ export const songLyrics = [
   {
     id: 70,
     title: "There Is A God",
-    description: <BeMyMan />,
+    description: <ThereIsAGod />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1489,7 +1626,7 @@ export const songLyrics = [
   {
     id: 81,
     title: "Godly Fear",
-    description: <BeMyMan />,
+    description: <GodlyFear />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1497,7 +1634,7 @@ export const songLyrics = [
   {
     id: 87,
     title: "The Lamb's Wife",
-    description: <BeMyMan />,
+    description: <TheLambsWife />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1505,7 +1642,7 @@ export const songLyrics = [
   {
     id: 111,
     title: "Smelling Everywhere",
-    description: <BeMyMan />,
+    description: <SmellingEverywhere />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1513,7 +1650,7 @@ export const songLyrics = [
   {
     id: 157,
     title: "Refine Me",
-    description: <BeMyMan />,
+    description: <RefineMe />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
@@ -1521,7 +1658,7 @@ export const songLyrics = [
   {
     id: 900,
     title: "Glory To Glory",
-    description: <BeMyMan />,
+    description: <GloryToGlory />,
     lyrics: "View",
     listen: "listen",
     thumbnail: gloryToGloryImage,
@@ -1529,7 +1666,7 @@ export const songLyrics = [
   {
     id: 911,
     title: "Send Down",
-    description: <BeMyMan />,
+    description: <SendDown />,
     lyrics: "View",
     listen: "listen",
     thumbnail: sendDownImage,
