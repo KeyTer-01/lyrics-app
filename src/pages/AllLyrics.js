@@ -1,4 +1,5 @@
 import {
+  Box,
   Button,
   ButtonGroup,
   Flex,
@@ -37,56 +38,68 @@ const AllLyrics = () => {
         flexDirection={"column"}
         // justifyContent={"center"}
         alignItems={"center"}
-        width={"100vw"}
+        // width={"100vw"}
         padding={6}
+        pt={0}
       >
         <Flex
-          width={"90%"}
-          justifyContent={"space-between"}
+          width={"100%"}
+          height={"100px"}
+          justifyContent={"center"}
           alignItems={"center"}
+          position={"fixed"}
+          zIndex={1}
+          backgroundColor={"#fff"}
+          // boxShadow={"xs"}
         >
-          <InputGroup>
-            <Input
-              placeholder="Search Lyrics"
-              size="md"
-              type="search"
-              value={searchQuery}
-              onChange={handleSearchChange}
-            />
-            <InputRightElement>
-              <IconButton
-                backgroundColor={"transparent"}
-                aria-label="Search"
-                icon={<SearchIcon />}
+          <Flex
+            width={"90%"}
+            justifyContent={"space-between"}
+            alignItems={"center"}
+          >
+            <InputGroup>
+              <Input
+                placeholder="Search Lyrics"
+                size="md"
+                type="search"
+                value={searchQuery}
+                onChange={handleSearchChange}
               />
-            </InputRightElement>
-          </InputGroup>
-          <ButtonGroup ml={4}>
-            {view === "grid" ? (
-              // <Button
-              //
-              // >
-              //   List View
-              // </Button>
-              <IconButton
-                backgroundColor={"transparent"}
-                aria-label="List"
-                icon={<HamburgerIcon />}
-                onClick={() => toggleView("list")}
-                isActive={view === "list"}
-              />
-            ) : (
-              <IconButton
-                backgroundColor={"transparent"}
-                aria-label="List"
-                icon={<DragHandleIcon />}
-                onClick={() => toggleView("grid")}
-                isActive={view === "grid"}
-              />
-            )}
-          </ButtonGroup>
+              <InputRightElement>
+                <IconButton
+                  backgroundColor={"transparent"}
+                  aria-label="Search"
+                  icon={<SearchIcon />}
+                />
+              </InputRightElement>
+            </InputGroup>
+            <ButtonGroup ml={4}>
+              {view === "grid" ? (
+                // <Button
+                //
+                // >
+                //   List View
+                // </Button>
+                <IconButton
+                  backgroundColor={"transparent"}
+                  aria-label="List"
+                  icon={<HamburgerIcon />}
+                  onClick={() => toggleView("list")}
+                  isActive={view === "list"}
+                />
+              ) : (
+                <IconButton
+                  backgroundColor={"transparent"}
+                  aria-label="List"
+                  icon={<DragHandleIcon />}
+                  onClick={() => toggleView("grid")}
+                  isActive={view === "grid"}
+                />
+              )}
+            </ButtonGroup>
+          </Flex>
         </Flex>
-        <br />
+        <Box mt={"100px"}></Box>
         {view === "grid" ? (
           <GridView searchQuery={searchQuery} />
         ) : (

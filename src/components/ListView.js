@@ -69,8 +69,14 @@ export const ListView = ({ searchQuery }) => {
               //   overflow="hidden"
               boxShadow="xs"
               //   alignItems={"center"}
+              // width={["100%", "80%"]}
             >
-              <Image src={card?.thumbnail} boxSize="80px" objectFit="cover" />
+              <Image
+                src={card?.thumbnail}
+                boxSize={["80px", "100px"]}
+                objectFit="cover"
+                borderLeftRadius={"10px"}
+              />
               <Box p={4} flex="1">
                 <Heading size={["xs", "md"]} mb={2}>
                   {card?.title}
@@ -90,9 +96,9 @@ export const ListView = ({ searchQuery }) => {
                   </Button>
                   <Button
                     variant={"outline"}
-                    height={"31px"}
+                    height={["18px", "31px"]}
                     borderRadius={"42px"}
-                    fontSize={"12px"}
+                    fontSize={["9px", "12px"]}
                     fontWeight={"600"}
                     css={viewLyricsButtonStyle}
                     onClick={() => openModal(card)}
