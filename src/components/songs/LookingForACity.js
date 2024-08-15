@@ -2,5 +2,20 @@ import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 
 export const LookingForACity = () => {
-  return <div>LookingForACity</div>;
+  return (
+    <Box>
+      <Text as={"b"}></Text>
+      <Text></Text>
+      <Text as={"b"}></Text>
+      <Text></Text>
+      <Text as={"b"}></Text>
+      <Text></Text>
+      <Text as={"b"}></Text>
+      <Text></Text>
+      <Text as={"b"}></Text>
+      <Text></Text>
+      <Text as={"b"}></Text>
+      <Text></Text>
+    </Box>
+  );
 };

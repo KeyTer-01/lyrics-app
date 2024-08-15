@@ -4,7 +4,14 @@ import React from "react";
 export const ChambersofMajesty = () => {
   return (
     <Box>
-      <Text as={"b"}></Text>
+      <Text as={"b"}>Intro</Text>
+      <Text>
+        The light of the knowledge of the glory of God is in your face,
+        <br />
+        Jesus, Jesus
+      </Text>
+      <br />
+      <Text as={"b"}>Verse 1</Text>
       <Text>
         Sharper than any two-edged sword
         <br />
@@ -21,7 +28,7 @@ export const ChambersofMajesty = () => {
         Before the eyes of him with whom we have to do
       </Text>
       <br />
-      <Text as={"b"}></Text>
+      <Text as={"b"}>Chorus</Text>
       <Text>
         The light of the knowledge of the glory of God
         <br />
@@ -32,7 +39,7 @@ export const ChambersofMajesty = () => {
         From the chambers of the Majesty on High
       </Text>
       <br />
-      <Text as={"b"}></Text>
+      <Text as={"b"}>Post-Chorus</Text>
       <Text>
         Take us to your chambers
         <br />
@@ -49,7 +56,7 @@ export const ChambersofMajesty = () => {
         Your chambers
       </Text>
       <br />
-      <Text as={"b"}></Text>
+      <Text as={"b"}>Verse 2</Text>
       <Text>
         There's a sword that is sharp
         <br />
@@ -64,7 +71,7 @@ export const ChambersofMajesty = () => {
         Within the chambers of the Majesty on high
       </Text>
       <br />
-      <Text as={"b"}></Text>
+      <Text as={"b"}>Verse 3</Text>
       <Text>
         High praise in our mouths
         <br />
@@ -85,7 +92,7 @@ export const ChambersofMajesty = () => {
         The chambers of the Majesty on high
       </Text>
       <br />
-      <Text as={"b"}></Text>
+      <Text as={"b"}>Verse 4</Text>
       <Text>
         Higher than the heavens
         <br />
@@ -98,6 +105,7 @@ export const ChambersofMajesty = () => {
         You are the heir of all things
         <br />
         Upholding all things by the word of Your power
+        <br />
         <br />
         You're are the keeper of Majesty (Jesus)
         <br />
@@ -124,10 +132,76 @@ export const ChambersofMajesty = () => {
         Teach us the song of the majesty on high
       </Text>
       <br />
-      <Text as={"b"}></Text>
-      <Text></Text>
-      <Text as={"b"}></Text>
-      <Text></Text>
+      <Text as={"b"}>Verse 5</Text>
+      <Text>
+        You are clothed in light oh
+        <br />
+        You are robed in glory
+        <br />
+        Your regalia is glory
+        <br />
+        And Your covering is glory
+        <br />
+        Seated on the right hand on the majesty on high.
+        <br />
+        You’re upholding all things by the word of Your power
+        <br />
+        Within the Chambers of the majesty on high
+        <br />
+        <br />
+        The secret is with you
+        <br />
+        The revelation of Our God
+        <br />
+        On the right hand of the majesty on high
+        <br />
+        All things are naked
+        <br />
+        And open before your eyes
+        <br />
+        Seated on the right hand on the majesty on high
+        <br />
+        You are the heir of Glory
+        <br />
+        You are the heir of all things
+        <br />
+        Teach us Your name
+        <br />
+        Teach us the name of Your father
+        <br />
+        <br />
+        You are the heir of Glory
+        <br />
+        You are the heir of all things
+        <br />
+        Seated on the right hand of the majesty on high
+      </Text>
+      <br />
+      <Text as={"b"}>Reprise</Text>
+      <Text>
+        You will beautify the meek with salvation
+        <br />
+        You will beautify the meek with salvation
+        <br />
+        You will beautify the meek with salvation
+        <br />
+        With the tidings of glory
+        <br />
+        From the right hand of the majesty on high
+        <br />
+        <br />
+        You are the merciful and faithful
+        <br />
+        High priest of good things
+        <br />
+        To come,
+        <br />
+        Glory, honour and power
+        <br />
+        Be unto you, Jesus our God
+        <br />
+        From the chambers of the majesty on high
+      </Text>
     </Box>
   );
 };
