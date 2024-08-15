@@ -34,14 +34,7 @@ const AllLyrics = () => {
 
   return (
     <>
-      <Flex
-        flexDirection={"column"}
-        // justifyContent={"center"}
-        alignItems={"center"}
-        // width={"100vw"}
-        padding={6}
-        pt={0}
-      >
+      <Flex flexDirection={"column"} alignItems={"center"} padding={6} pt={0}>
         <Flex
           width={"100%"}
           height={"100px"}
@@ -50,7 +43,6 @@ const AllLyrics = () => {
           position={"fixed"}
           zIndex={1}
           backgroundColor={"#fff"}
-          // boxShadow={"xs"}
         >
           <Flex
             width={"90%"}
@@ -75,11 +67,6 @@ const AllLyrics = () => {
             </InputGroup>
             <ButtonGroup ml={4}>
               {view === "grid" ? (
-                // <Button
-                //
-                // >
-                //   List View
-                // </Button>
                 <IconButton
                   backgroundColor={"transparent"}
                   aria-label="List"
