@@ -1,6 +1,14 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 import React, { useState } from "react";
 import ReactDOMServer from "react-dom/server";
 import { songLyrics } from "../components/constants/songLyrics";
@@ -71,52 +79,58 @@ export const ListView = ({ searchQuery }) => {
       <Box width={"90%"} mx="auto">
         {filteredLyrics.length > 0 ? (
           filteredLyrics.map((card, index) => (
-            <Flex
-              key={index}
-              direction={"row"}
-              mb={6}
-              border="1px solid #e2e8f0"
-              borderRadius="lg"
-              //   overflow="hidden"
-              boxShadow="xs"
-              //   alignItems={"center"}
-              // width={["100%", "80%"]}
-            >
-              <Image
-                src={card?.thumbnail}
-                boxSize={["80px", "100px"]}
-                objectFit="cover"
-                borderLeftRadius={"10px"}
-              />
-              <Box p={4} flex="1">
-                <Heading size={["xs", "md"]} mb={2}>
-                  {card?.title}
-                </Heading>
-                <Box>
-                  <Button
-                    variant={"outline"}
-                    height={["18px", "31px"]}
-                    // width={["40px", "67px"]}
-                    borderRadius={"42px"}
-                    fontSize={["9px", "12px"]}
-                    fontWeight={"600"}
-                    css={viewButtonStyle}
-                    onClick={() => toggleDescription(index)}
-                  >
-                    {visibleDescription === index ? "Hide" : "View"}
-                  </Button>
-                  <Button
-                    variant={"outline"}
-                    height={["18px", "31px"]}
-                    borderRadius={"42px"}
-                    fontSize={["9px", "12px"]}
-                    fontWeight={"600"}
-                    css={viewLyricsButtonStyle}
-                    onClick={() => openModal(card)}
-                  >
-                    View Lyrics
-                  </Button>
-                </Box>
+            <>
+              <Flex
+                key={index}
+                direction={"column"}
+                mb={6}
+                border="1px solid #e2e8f0"
+                borderRadius="lg"
+                //   overflow="hidden"
+                boxShadow="xs"
+                //   alignItems={"center"}
+                // width={["100%", "80%"]}
+              >
+                <Flex>
+                  <Image
+                    src={card?.thumbnail}
+                    boxSize={["80px", "100px"]}
+                    objectFit="cover"
+                    borderLeftRadius={"10px"}
+                  />
+
+                  <Box p={4} flex="1">
+                    <Heading size={["xs", "md"]} mb={2}>
+                      {card?.title}
+                    </Heading>
+                    <Box>
+                      <Button
+                        variant={"outline"}
+                        height={["18px", "31px"]}
+                        // width={["40px", "67px"]}
+                        borderRadius={"42px"}
+                        fontSize={["9px", "12px"]}
+                        fontWeight={"600"}
+                        css={viewButtonStyle}
+                        onClick={() => toggleDescription(index)}
+                      >
+                        {visibleDescription === index ? "Hide" : "View"}
+                      </Button>
+                      <Button
+                        variant={"outline"}
+                        height={["18px", "31px"]}
+                        borderRadius={"42px"}
+                        fontSize={["9px", "12px"]}
+                        fontWeight={"600"}
+                        css={viewLyricsButtonStyle}
+                        onClick={() => openModal(card)}
+                      >
+                        View Lyrics
+                      </Button>
+                    </Box>
+                  </Box>
+                </Flex>
+
                 <Box
                   css={[
                     descriptionContainerStyle,
@@ -125,12 +139,12 @@ export const ListView = ({ searchQuery }) => {
                       : descriptionHiddenStyle,
                   ]}
                 >
-                  <Text fontSize={"14px"} mt={2}>
+                  <Text fontSize={"14px"} pl={4} pr={4} pt={0}>
                     {card?.description}
                   </Text>
                 </Box>
-              </Box>
-            </Flex>
+              </Flex>
+            </>
           ))
         ) : (
           <Text fontSize={"xl"}>Song Not Found!</Text>
