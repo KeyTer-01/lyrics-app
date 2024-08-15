@@ -4,7 +4,7 @@ import React from "react";
 export const GadolAdonai = () => {
   return (
     <Box>
-      <Text>Verse 1</Text>
+      <Text as={"b"}>Verse 1</Text>
       <Text>
         Here in a dark place
         <br />
@@ -24,7 +24,7 @@ export const GadolAdonai = () => {
         And in the shadow of death
       </Text>
       <br />
-      <Text>Pre-Chorus</Text>
+      <Text as={"b"}>Pre-Chorus</Text>
       <Text>
         Through the tender mercy of our God
         <br />
@@ -44,7 +44,7 @@ export const GadolAdonai = () => {
         Shalom, shalom
       </Text>
       <br />
-      <Text>Pre-Chorus</Text>
+      <Text as={"b"}>Verse 2</Text>
       <Text>
         Here in a dark place
         <br />

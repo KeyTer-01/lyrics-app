@@ -11,6 +11,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
+import ReactDOMServer from "react-dom/server";
 import { songLyrics } from "../components/constants/songLyrics";
 import LyricsModal from "./modals/LyricsModal";
 
@@ -32,7 +33,7 @@ export const GridView = ({ searchQuery }) => {
   };
 
   const descriptionContainerStyle = css`
-    max-height: 0px;
+    max-height: 40px;
     overflow: hidden;
     transition: max-height 0.1s ease-out, padding 0.5s ease-out;
   `;
@@ -60,11 +61,20 @@ export const GridView = ({ searchQuery }) => {
     }
   `;
 
-  const filteredLyrics = songLyrics.filter((song) =>
-    // song.title &&
-    // typeof song.title === "string" &&
-    song.title.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  // const filteredLyrics = songLyrics.filter((song) =>
+  //   song?.title.toLowerCase().includes(searchQuery.toLowerCase())
+  // );
+
+  const filteredLyrics = songLyrics.filter((song) => {
+    const descriptionString = ReactDOMServer.renderToStaticMarkup(
+      song.description
+    ).toLowerCase();
+
+    return (
+      song?.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      descriptionString.includes(searchQuery.toLowerCase())
+    );
+  });
 
   return (
     <>
