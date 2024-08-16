@@ -33,7 +33,7 @@ export const GridView = ({ searchQuery }) => {
   };
 
   const descriptionContainerStyle = css`
-    max-height: 0px;
+    max-height: 40px;
     overflow: hidden;
     transition: max-height 0.1s ease-out, padding 0.5s ease-out;
   `;
