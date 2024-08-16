@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   ButtonGroup,
   Flex,
   IconButton,
@@ -8,21 +7,21 @@ import {
   InputGroup,
   InputRightElement,
   Text,
+  useBreakpointValue,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { GridView } from "../components/GridView";
-import {
-  AddIcon,
-  DragHandleIcon,
-  HamburgerIcon,
-  Search2Icon,
-  SearchIcon,
-} from "@chakra-ui/icons";
+import { DragHandleIcon, HamburgerIcon, SearchIcon } from "@chakra-ui/icons";
 import { ListView } from "../components/ListView";
 
 const AllLyrics = () => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [view, setView] = useState("grid");
+  const defaultView = useBreakpointValue({ base: "list", md: "grid" });
+  const [view, setView] = useState(defaultView);
+
+  useEffect(() => {
+    setView(defaultView);
+  }, [defaultView]);
 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
