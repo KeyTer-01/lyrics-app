@@ -11,7 +11,7 @@ Your bride is waiting, come<br/>
 We are looking and we are waiting<br/>
 For Your appearing,<br/>
 Jesus come!</Text><br/>
-      <Text as={"b"}>Chorus</Text>
+      <Text as={"b"}>Chorus </Text>
       <Text>You will come<br/>
 He that will come will come<br/>
 You will come Lord<br/>
