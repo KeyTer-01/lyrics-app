@@ -6,6 +6,7 @@ export const TireLagbara = () => {
     <Box>
       <Text as={"b"}>Pre-Chorus</Text>
       <Text>Hallelujah (repeat)</Text>
+      <br />
       <Text as={"b"}>Chorus</Text>
       <Text>
         He who was and is,
