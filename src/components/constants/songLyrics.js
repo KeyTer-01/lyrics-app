@@ -353,7 +353,7 @@ export const songLyrics = [
     description: <ChristBeMagnified />,
     lyrics: "View",
     listen: "listen",
-    thumbnail: chambersOfMajestyImage,
+    thumbnail: defaultImage,
   },
   {
     id: 134,
@@ -516,7 +516,7 @@ export const songLyrics = [
     thumbnail: defaultImage,
   },
   {
-    id: 200,
+    id: 154,
     title: "Esteem Your Word",
     description: <EsteemYourWord />,
     lyrics: "View",
@@ -889,14 +889,6 @@ export const songLyrics = [
     id: 48,
     title: "Last Last",
     description: <LastLast />,
-    lyrics: "View",
-    listen: "listen",
-    thumbnail: defaultImage,
-  },
-  {
-    id: 154,
-    title: "Lightly Esteem",
-    description: <LightlyEsteem />,
     lyrics: "View",
     listen: "listen",
     thumbnail: defaultImage,
